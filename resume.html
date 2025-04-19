@@ -36,17 +36,17 @@
         Hi, I'm John. I'm a senior software engineer with particular expertise in 
         Data Platform, AWS, and DevOps Engineering. I've been building web applications,
         services, infrastructure, and delivering software projects since 2014. In that
-        time, I've worked on, designed, and been the architect of over a dozen projects
-        from traditional C# ASP.NET web apps to healthcare ETL solutions completely deployed
-        using Infrastructure as Code (IaC). I'm most energized when I get to work with a
-        well built team building applications that solve important
-        problems, while ensuring the code we write is secure,
+        time, I've worked on, designed, and been the architect of over a dozen projects. These
+        ranged from traditional C# ASP.NET web apps, Node.js + Express.js + AngularJS projects,
+        and healthcare ETL solutions completely deployed using Infrastructure as Code (IaC). 
+        I'm most energized when I get to work with a well integrated team building applications 
+        that solve important problems, while ensuring the code we write is secure,
         scalable, easy to deploy, and easy to maintain.
       </p>
 
       <p>During my time, I have acquired and refined expertise in the following:</p>
       <ul>
-        <li>Javascript, Typescript, C#, Python, Elixir, and Node.js</li>
+        <li>JavaScript, TypeScript, C#, Python, Node.js, and Elixir</li>
         <li>Building and using AWS infrastucture completely in CloudFormation, 
           AWS Cloud Development Kit (CDK), Terraform, and deployed using AWS CodeBuild + CodeDeploy
           and Gitlab.
@@ -60,11 +60,10 @@
         <li>Relational databases like MySQL, PostgreSQL, and SQL Server.</li>
         <li>DynamoDB using various indexing patterns and projections.</li>
         <li>Snowflake, particularly involving data syncronization from S3 and PostgreSQL
-          as well as adminstration for access control.
+          as well as adminstration of Role Based Access Control (RBAC).
         </li>
         <li>
-          Lifecycle strategy, security, and Role Based Access Control of healthcare data
-          for HIPAA compliance.
+          Lifecycle strategy, security, and RBAC of healthcare data for HIPAA compliance.
         </li>
         <li>Communication skills with internal teams that have technical expertise to
           stake-holders that desire high level overview with architecture diagrams to
@@ -109,8 +108,8 @@
               <small>
                 The Monitoring team helps track backup generator and utility data at 
                 over 2000 sites across the United States. In order to ensure backup
-                systems are properly functioning and will be resiliant the team needs
-                single second latency delivery of data.
+                systems are properly functioning and will be resiliant, the team needs
+                data to be delivered end-to-end in seconds.
               </small>
             </td>
           </tr>
@@ -122,8 +121,7 @@
               <strong>SOLTECH</strong>
               <br />
               <small>
-                SOLTECH is a software consulting firm serving clients
-                many clients by building custom software solutions.
+                SOLTECH is a software consulting firm serving clients by building custom software solutions.
               </small>
             </td>
           </tr>
@@ -136,7 +134,7 @@
               <br />
               <small>
                 RenewData is an eDiscovery company that helps clients save significant
-                cost and time savings for legal, regulatory, and investigative matters.
+                cost and time for legal, regulatory, and investigative matters.
               </small>
             </td>
           </tr>
@@ -205,7 +203,7 @@
                 Building a solar powered weather station with Nerves
               </a>
               <br />
-              ElixirConf EU Virtual 2020 talk on Iot weather station project written in Elixir
+              ElixirConf EU Virtual 2020 talk on IoT weather station project written in Elixir
               <br />
               <small>Live Presentation | 32 min</small>
             </td>
@@ -217,15 +215,15 @@
       <h2>Career Highlights</h2>
 
       <p>
-        Throughout my career I've had the chance to be an architect on large projects or simply
-        a contributor on existing critical applications.
+        Throughout my career I've had the chance to be an architect on large projects as well as
+        a developer on existing critical applications.
       </p>
       <details>
         <summary>Highlights from my time at Phreesia</summary>
         <ul>
           <li>
             I was an Architect for a new Data Lake repository on AWS using Kinesis to enable quick
-            data delivery of millions of records per minute, Glue schema registration,
+            data delivery of millions of records per minute, S3 file storage, Glue schema registration,
             and PySpark ETL processing. Relevant AWS technologies included: S3 Batch Jobs, Lambda, Glue,
             Lake Formation, DynamoDB, EC2, and API Gateway. This data lake helped teams migrate away
             from storing over a decade of historical data that was preventing efficient reindexing
@@ -238,9 +236,8 @@
             Helm charts.
           </li>
           <li>
-            I ensured all Data Lake infrastructure on AWS to assist core services in moving
-            away from storing over a decade of total historical data in on-prem data
-            center. 
+            We migrated terrabytes of data in SQL Server from an on-prem data center to AWS
+            using AWS Snowball.
           </li>
           <li>
             In order to work with various stake-holders, I wrote out lots and lots of documentation
@@ -248,7 +245,7 @@
             different types of teams easy.
           </li>
           <li>
-            I mentored junior engineers in helping write PySpark ETL jobs, understand and use
+            I mentored junior engineers in helping write PySpark ETL jobs and to understand and use
             AWS services like Glue, S3, and Lake Formation. I also spent much time helping instruct
             how to use IaC and CI/CD tools like AWS CDK, Terraform, and Gitlab.
           </li>
@@ -264,19 +261,19 @@
           </li>
           <li>
             I was co-architect on the monitoring PowerControl PC3 system that allowed the
-            monitoring team to run generators located all over the country remotely from the
-            company's HQ. PC3 used AWS Kinesis to delivery tens of thousands of data points per
+            monitoring team to remotely manage backup systems located all over the country. 
+            PC3 used AWS Kinesis to delivery tens of thousands of data points per
             hour from control systems at these sites and could schedule and start these backup
             systems for testing as well as <b><a href="https://en.wikipedia.org/wiki/Load_management">load management</a></b> during peak energy consumption periods.
           </li>
           <li>
             As a full-stack developer on the SaaS web app built on top of PC3, I worked in TypeScript,
-            AngularJS, Node.js, EC2 instances managed by an Application Load Balancer.
+            AngularJS, Node.js, and EC2 instances managed by an Application Load Balancer.
           </li>
           <li>
             All infrastructure was managed through CloudFormation templates and EC2 instances were
-            deployed with custom AMIs for immutable web servers that could autoscale and quickly 
-            redeployed in case of problems.
+            deployed with custom AMIs to create immutable web servers that could autoscale, tear-down,
+            and quickly redeploy in case of problems.
           </li>
         </ul>
       </details>
@@ -308,10 +305,10 @@
             RenewData is an eDiscovery legal and technology consulting company based in Austin, TX.
           </li>
           <li>
-            I worked as a full-stack developer on a SaaS product Anagram that performed Language 
+            I worked as a full-stack developer on a SaaS product named Anagram that performed Language 
             Based Analytics that indexed millions of legal documents.
           </li>
-          <li>Created front-end views and controllers that use Telerik UI MVC wrappers for ASP.NET and 
+          <li>I created front-end views and controllers that use Telerik UI MVC wrappers for ASP.NET and 
             assisted in designing DB framework by designing tables and writing stored procedures. 
           </li>
         </ul>
